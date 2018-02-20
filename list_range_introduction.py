@@ -32,3 +32,9 @@ dummy = "this is a test"
 
 print(dummy.split())
 
+
+
+###### range
+print("#######################")
+print(list(range(0,10,1)))
+print(list(range(0,10,2)))

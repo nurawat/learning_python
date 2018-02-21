@@ -42,7 +42,7 @@ while True:
         break
 
     direction = input("Available exits are " + availableExits + " ").upper()
-    print(localtions[loc])
+    print(localtions)
     # Parse the user input, using our vocabulary dictionary if necessary
     if len(direction) > 1:   # more than one letter, so check vocab
         words = direction.split()

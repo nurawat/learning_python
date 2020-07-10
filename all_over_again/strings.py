@@ -17,3 +17,4 @@ print(name[-14])
 print(name[0:6])
 print(name[:5])
 print(name[10:9]) # no output
+print(name[:])
